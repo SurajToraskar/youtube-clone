@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>sidebar</title>
+    <style>
+    body{
+      padding-left: 220px
+    }
+      .sidebar{
+        position:fixed;
+        display:flex;
+        flex-direction: column;
+        top:55px;
+        left:0px;
+        bottom:0px;
+        width:180px;
+        padding-left:10px;
+
+
+      }
+      .sidebar-link {
+
+      height:74px;
+      display:flex;
+      flex-direction:row;
+      justify-content:start;
+
+
+      }
+      .sidebar-link img{
+        height:40px;
+
+      }
+      .sidebar-link div{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        font-size:15px;
+        font-weight:bold;
+        margin-left:10px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icon/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/explore.svg">
+        <div>Explore</div>
+    </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/subscriptions.svg">
+        <div>Subscriptons</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/library.svg">
+        <div>Library</div>
+    </div>
+   </div>
+
+    </div>
+  </body>
+ </html>
